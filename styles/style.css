@@ -71,7 +71,136 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 60px;
 }
+
+.vision-title{
+    font-size: 56px;
+    font-weight: bold;
+}
+.empower{
+    color: orange;
+}
+.toward{
+    color: skyblue;
+}
+
+.vision-subtitle{
+    font-size: 20px;
+}
+
+.btn-enroll{
+    background-color: black;
+    padding: 10px 47px;
+    color: white;
+    border-radius: 12px;
+}
+.photo-kid{
+    width: 100%;
+}
+.s-title{
+    text-align: center;
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.divider2{
+    background-image: url("../assets/bg.png");
+    
+    margin-bottom: 80px;
+}
+
+.card-container{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.card-1{
+    background: linear-gradient(to bottom, #DEF3FC, #FFFFFF);
+    border-radius: 18px;
+    
+    text-align: center;
+    padding: 50px 70px;
+
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+
+
+}
+
+.card-2{
+    background: linear-gradient(to bottom, #FCF3DD, #FFFFFF);
+    border-radius: 18px;
+    
+    text-align: center;
+    padding: 50px 70px;
+
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.card-3{
+    background: linear-gradient(to bottom, #E9DDF9, #FFFFFF);
+    border-radius: 18px;
+    
+    text-align: center;
+    padding: 50px 70px;
+
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+
+}
+.bg{
+    background-color: #F7F7F7;
+}
+
+.circle{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.circle-1{
+    height: 40px;
+    width: 40px;
+    background-color: orange;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.circle-2{
+    height: 40px;
+    width: 40px;
+    background-color: orange;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.legs{
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: #01ACFD;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 160px;
+}
+
+.logo-1{
+    display: flex;
+}
+
+.text-white{
+    color: white;
+}
+
+
+
+
 
 
 @media screen and (max-width:576px) {
@@ -90,6 +219,18 @@ a{
         display: none;
     }
     .btn{
+        display: none;
+    }
+    .divider{
+        flex-direction: column-reverse;
+    }
+    .vision{
+        text-align: center;
+    }
+    .card-container{
+        flex-direction: column;
+    }
+    .circle{
         display: none;
     }
     
