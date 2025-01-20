@@ -203,6 +203,7 @@ a{
 
 
 
+
 @media screen and (max-width:576px) {
     .header-container{
         border-bottom: 1px solid orange;
@@ -232,6 +233,10 @@ a{
     }
     .circle{
         display: none;
+    }
+    .legs{
+        flex-direction: column;
+        padding: 70px;
     }
     
 }
