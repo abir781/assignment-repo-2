@@ -1,0 +1,63 @@
+
+
+.quicksand-normal {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+
+
+
+
+.heads{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.one{
+    display: flex;
+}
+.item{
+    list-style: none;
+    margin-right: 32px;
+}
+.menus{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.links-1{
+    color: orange;
+}
+.links-2{
+    color: skyblue;
+}
+.links-3{
+    color: #05D4DF;
+}
+.links-4{
+    color: #5D58EF;
+}
+.titles{
+    font-weight: bold;
+}
+
+.btn{
+    padding: 10px 60px;
+    border: none;
+    background-color: orange;
+    color: white;
+    border-radius: 12px;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
