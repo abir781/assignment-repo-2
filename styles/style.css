@@ -105,9 +105,15 @@ a{
 }
 
 .divider2{
-    background-image: url("../assets/bg.png");
+   
     
     margin-bottom: 80px;
+}
+
+.space{
+    background: linear-gradient(to top, rgba(249, 222, 174, 0.4), rgba(249, 249, 248, 0.4)), url('../assets/bg.png');
+    background-size: cover;
+    
 }
 
 .card-container{
@@ -196,6 +202,16 @@ a{
 
 .text-white{
     color: white;
+}
+
+.image-card{
+    display: flex;
+}
+
+.im-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
 }
 
 
