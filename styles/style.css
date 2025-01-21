@@ -233,8 +233,15 @@ a{
 .same{
     width: 100%;
 }
+.last-button{
+   display: block;
+   margin: 80px auto;
+   background-color: black;
+   color: white;
+   padding: 10px 60px;
+   border-radius: 12px;
 
-
+}
 
 
 
