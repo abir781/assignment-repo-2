@@ -163,6 +163,7 @@ a{
     display: flex;
     gap: 10px;
     justify-content: center;
+    margin-bottom: 80px;
 }
 
 .circle-1{
@@ -195,6 +196,10 @@ a{
     justify-content: space-around;
     padding: 100px 160px;
 }
+.mid{
+    text-align: center;
+    margin-bottom: 80px;
+}
 
 .logo-1{
     display: flex;
@@ -206,12 +211,27 @@ a{
 
 .image-card{
     display: flex;
+    
+   
 }
 
 .im-2{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     
+}
+
+.im-1{
+    background-color: white;
+    margin-right: 18px;
+    
+}
+
+.divs{
+    background-color: white;
+}
+.same{
+    width: 100%;
 }
 
 
@@ -253,6 +273,9 @@ a{
     .legs{
         flex-direction: column;
         padding: 70px;
+    }
+    .im-1{
+        display: none;
     }
     
 }
