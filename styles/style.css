@@ -224,11 +224,81 @@ a{
 .im-1{
     background-color: white;
     margin-right: 18px;
+    position: relative;
     
 }
 
-.divs{
+.btns{
+    position: absolute;
+    top: 315px;
+    left: 40px;
+    background-color: #3CD8E8;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 18px;
+}
+
+.btns-2{
+    background-color: #3CD8E8;
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    border-radius: 18px;
+    position: absolute;
+    top: 160px;
+    left: 45px;
+
+}
+.btns-3{
+    background-color: #3CD8E8;
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    border-radius: 18px;
+    position: absolute;
+    top: 160px;
+    left: 45px;
+
+}
+.btns-4{
+    background-color: #3CD8E8;
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    border-radius: 18px;
+    position: absolute;
+    top: 160px;
+    left: 45px;
+
+}
+.btns-5{
+    background-color: #3CD8E8;
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    border-radius: 18px;
+    position: absolute;
+    top: 160px;
+    left: 45px;
+
+}
+
+.divs-1{
     background-color: white;
+    position: relative;
+}
+.divs-2{
+    background-color: white;
+    position: relative;
+}
+.divs-3{
+    background-color: white;
+    position: relative;
+}
+.divs-4{
+    background-color: white;
+    position: relative;
 }
 .same{
     width: 100%;
@@ -241,6 +311,15 @@ a{
    padding: 10px 60px;
    border-radius: 12px;
 
+}
+.change{
+    color: #64C8FF;
+}
+.change-2{
+    color: #F0AA00;
+}
+.change-3{
+    color: #8700FF;
 }
 
 
